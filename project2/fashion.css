@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:pink;
+    color: #0e0101;
+}
+
+.header {
+    background:palevioletred;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: palevioletred;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:  palevioletred;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.cta-button {
+    background: palevioletred;
+    color: #fff;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+    padding: 0 2em;
+}
+
+.feature-item {
+    text-align: center;
+    max-width: 200px;
+}
+
+.feature-item img {
+    width: 100%;
+    height: auto;
+}
